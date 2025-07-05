@@ -24,6 +24,10 @@ body {
         color: #0e223e;
         opacity: 1;
     }
+    
+    input.form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(14, 34, 62, 0.50);
+}
 }
 
 #sha {
@@ -33,8 +37,7 @@ body {
 }
 
 #logo-acceso {
-    margin: 0px auto 0px;
-    display: block;
+    border-radius: 20px;
 }
 
 .custom-outline {
@@ -52,6 +55,18 @@ body {
 
 .custom-icon {
     color: #0e223e;
+}
+
+.custom-link {
+    color: #0e223e;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #fff;
+    background-color: #0e223e;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
 }
 
 recuperar {

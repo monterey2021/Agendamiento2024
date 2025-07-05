@@ -35,22 +35,28 @@ if ($_SESSION){
                 <div class="d-grid gap-2 col-6 mx-auto mb-2">
                     <button class="btn btn-outline-primary custom-outline" type="submit">Acceder</button>
                 </div>
-                <div class="checkbox" style="text-align: center;">
+                <div class="form-check text-center">
                     <!-- <label class="checkbox">
                         <input type="checkbox" value="1" name="recordarsesion"/>Recordar mi sesion
                     </label> -->
-                    <p class="help-block"><a href="/Agendamiento2024/recuperar_index.php">¿Olvidaste tu contraseña?</a></p>
+                    <p class="text-muted text-center">
+                        <a href="#" class="d-block mb-2 custom-link">
+                            Registrar nuevo usuario
+                        </a>
+                        <a href="/Agendamiento2024/recuperar_index.php" class="d-block mb-2 custom-link">
+                            ¿Olvidaste tu contraseña?
+                        </a>
+                    </p>
                 </div>
                 <?php
                 if (!empty($_SESSION['error'])){?>
-                <div class="alert alert-danger" role="alert">
-                    <span class="glyphicon glyphicon-exclamation-sign"></span>
+                <div class="alert alert-danger d-flex align-items-center" role="alert">
+                    <span class="bi bi-exclamation-triangle-fill text-center">
                     <?php echo $_SESSION['error']; ?>
-                    </div>
+                    </span>
+                </div>
                 <?php }?>
             </form>
         </div>
-        <script src="js/jquery-1.12.2.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
