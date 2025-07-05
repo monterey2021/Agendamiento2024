@@ -15,25 +15,26 @@ if ($_SESSION){
         <title>Iniciar Sesión</title>
         <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="bootstrap-icons-1.13.1/bootstrap-icons.css">
         <link rel="stylesheet" href="css/estiloacceso.css">
     </head>
     <body>
         <div class="container well" id="sha">
             <div class="row">
-                <img src="img/logoprincipal.png" alt="logo-acceso" class="img-responsive" id="logo-acceso"/>
+                <img src="img/logosecundario.png" alt="logo-acceso" class="img-responsive" id="logo-acceso"/>
             </div>
             <form class="acceso-usuario" action="acceso.php" method="post">
-                <div class="form-group has-feedback">
-                    <input type="text" class="form-control" name="usuario" required="" autofocus="" placeholder="Usuario"/>
-                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                <div class="position-relative">
+                    <input type="text" class="form-control" name="usuario" placeholder="Usuario"/>
+                    <span class="bi bi-person position-absolute top-50 end-0 translate-middle-y me-3"></span>
                 </div>
-                <div class="form-group has-feedback">
-                    <input type="password" class="form-control" name="contraseña" required="" placeholder="Contraseña"/>
-                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                <div class="position-relative">
+                    <input type="password" class="form-control" name="contraseña" placeholder="Contraseña"/>
+                    <span class="bi bi-lock position-absolute top-50 end-0 translate-middle-y me-3"></span>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-outline-primary custom-outline" type="submit">Acceder</button>
+                </div>
                 <div class="checkbox" style="text-align: center;">
                     <label class="checkbox">
                         <input type="checkbox" value="1" name="recordarsesion"/>Recordar mi sesion

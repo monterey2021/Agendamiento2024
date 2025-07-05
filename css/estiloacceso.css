@@ -2,6 +2,7 @@
     Created on : 5 jul. 2025, 7:30:40 a. m.
     Author     : Martín Reyes
 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
     display: flex;
@@ -10,13 +11,14 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
+    background-color: #0e223e;
 }
 
 .acceso-usuario {
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;
+    font-family: 'Poppins';
 }
 
 #sha {
@@ -30,8 +32,13 @@ body {
     display: block;
 }
 
-.acceso-usuario {
-    font-family: 'Lucida Sans Unicode';
+.custom-outline {
+    --bs-btn-color: #0e223e;
+    --bs-btn-border-color: #0e223e;
+    --bs-btn-hover-bg: #0e223e;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-border-color: #0e223e;
+
 }
 
 recuperar {
