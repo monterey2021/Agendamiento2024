@@ -24,21 +24,21 @@ if ($_SESSION){
                 <img src="img/logosecundario.png" alt="logo-acceso" class="img-responsive" id="logo-acceso"/>
             </div>
             <form class="acceso-usuario" action="acceso.php" method="post">
-                <div class="position-relative">
-                    <input type="text" class="form-control" name="usuario" placeholder="Usuario"/>
-                    <span class="bi bi-person position-absolute top-50 end-0 translate-middle-y me-3"></span>
+                <div class="position-relative mb-2">
+                    <input type="text" class="form-control custom-text" name="usuario" placeholder="Usuario"/>
+                    <span class="bi bi-person position-absolute top-50 end-0 translate-middle-y me-3 custom-icon"></span>
                 </div>
-                <div class="position-relative">
-                    <input type="password" class="form-control" name="contraseña" placeholder="Contraseña"/>
-                    <span class="bi bi-lock position-absolute top-50 end-0 translate-middle-y me-3"></span>
+                <div class="position-relative mb-2">
+                    <input type="password" class="form-control custom-text" name="contraseña" placeholder="Contraseña"/>
+                    <span class="bi bi-lock position-absolute top-50 end-0 translate-middle-y me-3 custom-icon"></span>
                 </div>
-                <div class="d-grid gap-2 col-6 mx-auto">
+                <div class="d-grid gap-2 col-6 mx-auto mb-2">
                     <button class="btn btn-outline-primary custom-outline" type="submit">Acceder</button>
                 </div>
                 <div class="checkbox" style="text-align: center;">
-                    <label class="checkbox">
+                    <!-- <label class="checkbox">
                         <input type="checkbox" value="1" name="recordarsesion"/>Recordar mi sesion
-                    </label>
+                    </label> -->
                     <p class="help-block"><a href="/Agendamiento2024/recuperar_index.php">¿Olvidaste tu contraseña?</a></p>
                 </div>
                 <?php

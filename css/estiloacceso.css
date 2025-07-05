@@ -19,6 +19,11 @@ body {
     padding: 15px;
     margin: 0 auto;
     font-family: 'Poppins';
+    
+    input::placeholder {
+        color: #0e223e;
+        opacity: 1;
+    }
 }
 
 #sha {
@@ -28,7 +33,7 @@ body {
 }
 
 #logo-acceso {
-    margin: 0px auto 10px;
+    margin: 0px auto 0px;
     display: block;
 }
 
@@ -38,7 +43,15 @@ body {
     --bs-btn-hover-bg: #0e223e;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-border-color: #0e223e;
+}
 
+.custom-text {
+    color: #0e223e;
+    border-color: #0e223e;
+}
+
+.custom-icon {
+    color: #0e223e;
 }
 
 recuperar {
