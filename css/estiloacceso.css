@@ -1,0 +1,45 @@
+/* 
+    Created on : 5 jul. 2025, 7:30:40 a. m.
+    Author     : Martín Reyes
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.acceso-usuario {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#sha {
+    background-color: white;
+    max-width: 340px;
+    border-radius: 6%;
+}
+
+#logo-acceso {
+    margin: 0px auto 10px;
+    display: block;
+}
+
+.acceso-usuario {
+    font-family: 'Lucida Sans Unicode';
+}
+
+recuperar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
