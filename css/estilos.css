@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/*
+    Created on : 30 jun. 2025, 1:17:50 p. m.
+    Author     : Martín Reyes
+    */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+            .acceso-usuario {
+                max-width: 330px;
+                padding: 15px;
+                margin: 0 auto;
+            }
+            #sha {
+                background-color: white;
+                max-width: 340px;
+                box-shadow: 0px 0px 18px 0px rgba(48,50,50,0.48);
+                border-radius: 6%;
+            }
+            #logo-acceso {
+                margin: 0px auto 10px;
+                display: block;
+                border-radius: 50%;
+            }
+            .acceso-usuario {
+                font-family: 'Lucida Sans Unicode';
+            }
+            recuperar {
+                /*padding-top: 100px;
+                padding-bottom: 100px;*/
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                background-color: #f8f9fa;
+            }

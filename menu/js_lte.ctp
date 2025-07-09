@@ -1,7 +1,8 @@
 <!-- jQuery 2.1.4 -->
 <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
 <!-- Bootstrap 3.3.5 -->
-<script src="js/bootstrap.min.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
 
 <!-- Select2 -->
 <script src="plugins/select2/select2.full.min.js"></script>

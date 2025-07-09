@@ -1,5 +1,6 @@
 <!-- Bootstrap 3.3.5 -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">

@@ -1,13 +1,7 @@
-<header class="main-header">
-
-    <!-- Logo -->
-    <a href="/Agendamiento2024" class="logo">
-        <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>AGE</b></span>
-        <!-- logo for regular state and mobile devices -->
-        <!--<span class="logo-lg" style="margin-top: -0.2em;"><img src="/Agendamiento2024/img/logo.png"></span>-->
-            <span class="logo-lg">AGENDAMIENTO</span>
+<nav class="main-header navbar navbar-expand navbar-light bg-white border-bottom">
+    <a href="/Agendamiento2024/menu.php" class="navbar-brand d-flex align-items-center">
+        <img src="img/Hospital.png" alt="Logo" class="brand-image me-2" style="height: 30px;">
+            <!-- <span class="brand-text fw-bold">DOCTOR</span> -->
     </a>
-    <?php require 'menu/navbar_lte.ctp'; ?><!--NOTIFICACIONES-->
-
-</header>
+    <?php require 'menu/navbar_lte.ctp';?>
+</nav>
