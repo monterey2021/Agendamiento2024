@@ -1,12 +1,75 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/*
-    Created on : 30 jun. 2025, 1:17:50 p. m.
+/* 
+    Created on : 5 jul. 2025, 7:30:40 a. m.
     Author     : Martín Reyes
-    */
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #0e223e;
+}
+
+.acceso-usuario {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    
+    input::placeholder {
+        color: #0e223e;
+        opacity: 1;
+    }
+    
+    input.form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(14, 34, 62, 0.50);
+}
+}
+
+#sha {
+    background-color: white;
+    max-width: 340px;
+    border-radius: 6%;
+}
+
+#logo-acceso {
+    border-radius: 20px;
+}
+
+.custom-outline {
+    --bs-btn-color: #0e223e;
+    --bs-btn-border-color: #0e223e;
+    --bs-btn-hover-bg: #0e223e;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-border-color: #0e223e;
+}
+
+.custom-text {
+    color: #0e223e;
+    border-color: #0e223e;
+}
+
+.custom-icon {
+    color: #0e223e;
+}
+
+.custom-link {
+    color: #0e223e;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: #fff;
+    background-color: #0e223e;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+recuperar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,33 +78,3 @@ body {
     padding: 0;
     background-color: #f8f9fa;
 }
-            .acceso-usuario {
-                max-width: 330px;
-                padding: 15px;
-                margin: 0 auto;
-            }
-            #sha {
-                background-color: white;
-                max-width: 340px;
-                box-shadow: 0px 0px 18px 0px rgba(48,50,50,0.48);
-                border-radius: 6%;
-            }
-            #logo-acceso {
-                margin: 0px auto 10px;
-                display: block;
-                border-radius: 50%;
-            }
-            .acceso-usuario {
-                font-family: 'Lucida Sans Unicode';
-            }
-            recuperar {
-                /*padding-top: 100px;
-                padding-bottom: 100px;*/
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-                padding: 0;
-                background-color: #f8f9fa;
-            }

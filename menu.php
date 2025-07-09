@@ -20,7 +20,7 @@
             </div>
             <?php require 'menu/footer_lte.ctp';?>
         </div>
-        <?php require 'menu/js_lte.ctp'; ?>
+        
     </body>
 </html>
 

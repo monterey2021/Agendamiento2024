@@ -20,18 +20,18 @@
             </li>
                 <?php } ?>
         </ul>
-        
-    </div>
-    <div class="d-flex align-items-center p-2 border-top">
-                <img src="<?php
-                if(!empty($_SESSION['foto'])){
-                    echo $_SESSION['foto'];
+        <div class="d-flex align-items-center p-2 border-top">
+            <img src="<?php
+            if(!empty($_SESSION['foto'])){
+                echo $_SESSION['foto'];
                 }else{
-                    echo "img/no_disponible.jpg";}?>" class="rounded-circle me-2" alt="Usuario" style="width: 40px;">
-                <div>
-                <p class="mb-0 fw-bold"><?php
+                    echo "bootstrap-icons-1.13.1/person-circle.svg";}?>" class="rounded-circle me-2" alt="Usuario" style="width: 40px;">
+            <div>
+                <p class="mb-0 fw-bold text-white"><?php
                 echo $_SESSION['nombre_completo'];?></p>
                 <small class="text-success">En linea</small>
-                </div>
+            </div>
         </div>
+    </div>
+    
 </aside>
