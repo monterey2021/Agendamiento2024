@@ -12,7 +12,7 @@
         require 'menu/css_lte.ctp';
         ?>
     </head>
-    <body class="hold-transition skin-blue sidebar-mini">
+    <body class="sidebar-mini layout-fixed">
         <div class="wrapper">
             <?php require 'menu/header_lte.ctp';?>
             <?php require 'menu/toolbar_lte.ctp';?>
@@ -20,7 +20,7 @@
             </div>
             <?php require 'menu/footer_lte.ctp';?>
         </div>
-        
+        <?php require 'menu/js_lte.ctp';?>
     </body>
 </html>
 

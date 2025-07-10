@@ -117,8 +117,18 @@
     }
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.nav-item > .nav-link').forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      const parent = link.closest('.nav-item');
+      const submenu = parent.querySelector('.nav-treeview');
 
-
-
-
-
+      if (submenu) {
+        e.preventDefault(); // Evita navegación si es necesario
+        submenu.classList.toggle('show'); // Alterna visibilidad
+      }
+    });
+  });
+});
+</script>

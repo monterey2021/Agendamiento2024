@@ -69,6 +69,15 @@ body {
     border-radius: 4px;
 }
 
+.custom-foto {
+    color: #fff;
+}
+
+.nav-item.menu-open .nav-arrow {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
+
 recuperar {
     display: flex;
     justify-content: center;
